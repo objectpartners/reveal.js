@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/opi.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -42,11 +42,39 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
+				<section data-state="title">
 					<h1>Reveal.js</h1>
 					<h3>HTML Presentations Made Easy</h3>
+					<h3>OPI Presentation Template</h3>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Content Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<br/>
+						<small>Github at <a href="https://github.com/objectpartners/reveal.js">objectpartners/reveal.js</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Title Slide</h2>
+					<br/>
+					<p>
+						Define the title slide like so:
+						<pre><code>
+&lt;section data-state="title"&gt;
+...
+&lt;/section&gt;
+						</code></pre></p>
+				</section>
+
+				<section>
+					<h2>Regular Slides</h2>
+					<br/>
+					<p>
+						Define every other slide normally:
+						<pre><code>
+&lt;section&gt;
+...
+&lt;/section&gt;
+						</code></pre>
 					</p>
 				</section>
 
